@@ -5,6 +5,7 @@ public class EmployeeDetails {
 	private String name;
 	private double monthlySlary;
 	private int age;
+	private String whatever;
 	
 	public String getName() {
 		return name;
@@ -24,7 +25,10 @@ public class EmployeeDetails {
 	public void setAge(int age) {
 		this.age = age;
 	}
-	
-	
-	
+	public String getWhatever() {
+		return whatever;
+	}
+	public void setWhatever(String whatever) {
+		this.whatever = whatever;
+	}
 }
