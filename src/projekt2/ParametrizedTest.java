@@ -30,12 +30,12 @@ public class ParametrizedTest {
 	public ParametrizedTest(int salary, int result){
 		this.salary = salary;
 		this.result = result;
-		String nazwa = "dupatam";
+		String nazwa = "coœ innego";
 		System.out.println(nazwa);
 	}
 	
 	private void zlo(String nienawisc){
-		System.out.println(nienawisc);
+		nienawisc = "z³o";
 	}
 	
 	@Test
