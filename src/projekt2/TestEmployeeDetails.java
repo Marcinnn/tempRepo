@@ -14,7 +14,7 @@ public class TestEmployeeDetails {
 		ed.setAge(10);
 		ed.setMonthlySlary(1000);
 		ed.setName("Weso³y Romek");
-		ed.setWhatever("aaa");
+		ed.setWhatever("bbb");
 		
 		double appraisal = EmpBussinessLogic.calculateAppraisal(ed);
 		Assert.assertEquals(500, appraisal, 0.0);
