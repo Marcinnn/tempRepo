@@ -7,8 +7,7 @@ public class TestRunner {
 
 	public static void main(String[] args) {
 		
-		Result res = JUnitCore.runClasses(TestEmployeeDetails.class);
+		Result res = JUnitCore.runClasses(JUnitTestSuite.class);
 		System.out.println(1);
 	}
-
 }
