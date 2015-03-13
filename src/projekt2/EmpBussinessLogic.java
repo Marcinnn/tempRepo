@@ -12,4 +12,11 @@ public class EmpBussinessLogic {
 		else
 			return 1000;
 	}
+	
+	public static double calculateAppraisal(int empSalary){
+		if(empSalary < 10000)
+			return 500;
+		else
+			return 1000;
+	}
 }

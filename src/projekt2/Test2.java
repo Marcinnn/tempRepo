@@ -16,7 +16,8 @@ public class Test2 {
 		ed.setWhatever("aaa");
 		
 		double ys = EmpBussinessLogic.calculateYearlySalary(ed);
-		
 		Assert.assertEquals(12000, ys, 0.0);
+		
+		
 	}
 }
